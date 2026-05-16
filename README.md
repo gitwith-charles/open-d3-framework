@@ -2,7 +2,7 @@
 
 ### Open Discovery-Driven Delivery is an AI-assisted framework for moving from idea to shipped feature faster using Claude Code and Claude Skills with sensible guardrails.
 
-**Last Updated:** May 11, 2026  
+**Last Updated:** May 16, 2026  
 **Created By:** C W
 
 ---
@@ -81,124 +81,17 @@ Open D3 assumes:
 
 ---
 
-# Core Ideas
-
-## Discovery Before Execution
-
-Most implementation problems are thinking problems that survived long enough to become code.
-
-Open D3 emphasizes:
-- structured discovery
-- iterative clarification
-- shared context
-- and progressive refinement
-
-before execution starts compounding bad assumptions at machine speed.
-
----
-
-## Specs as Living Context
-
-Specs should not fossilize five minutes after they’re written.
-
-In Open D3, specs evolve alongside:
-- discovery
-- implementation
-- testing
-- feedback
-- and validation
-
-They become shared working context between:
-- humans
-- Claude Code
-- Claude Skills
-- and execution workflows
-
-The goal is reducing drift between intent and implementation before things get expensive.
-
----
-
-## Feedback Loops That Evolve the Spec
-
-Most workflows treat specs like contracts carved into stone tablets.
-
-Open D3 treats them more like evolving context.
-
-Verification, testing, implementation discoveries, and feedback loops all feed back into the spec layer.
-
-That creates tighter loops between:
-- discovery
-- validation
-- execution
-- and refinement
-
-which helps workflows stay aligned as execution speeds up.
-
----
-
-## Validate Fast and Early
-
-Don’t spend two weeks building the wrong thing faster.
-
-Open D3 encourages validating ideas early before scaling implementation effort.
-
-That can include:
-- rapid experimentation
-- lightweight testing
-- iterative feedback
-- workflow simulations
-- and continuous refinement
-
-AI makes iteration cheap.
-
-Use that before committing to bad assumptions.
-
----
-
-## Fast Execution with Sensible Guardrails
-
-Open D3 is designed to move quickly without turning workflows into chaos.
-
-The framework introduces lightweight verification and synchronization loops to help:
-- validate assumptions
-- catch drift early
-- maintain alignment
-- and keep execution reviewable
-
-without burying teams under unnecessary process.
-
-Because nobody wants a seven-layer approval workflow just to rename a button.
-
----
-
-## Reusable Skills
-
-Claude Skills become reusable workflow building blocks.
-
-Instead of rebuilding process every time, workflows can reuse:
-- discovery patterns
-- verification loops
-- setup flows
-- synchronization behaviors
-- and execution structures
-
-across projects.
-
-The goal is spending less time rebuilding workflows and more time validating useful ideas.
-
----
-
 # Included Skills
 
-Current framework skills include:
+The framework currently includes workflows and capabilities focused on:
 - Discovery
-- Spec
-- Verify
-- Sync
-- Orchestrator
-- Setup
+- Spec Development
+- Verification
+- Workflow Synchronization
+- Orchestration
+- Setup and Context Initialization
 
-These skills work together to structure AI-assisted workflows inside Claude Code.
+The latest Open D3 framework package bundles supporting workflow references and companion skills into a unified framework distribution.
 
 ---
 
@@ -208,6 +101,8 @@ These skills work together to structure AI-assisted workflows inside Claude Code
 Idea
   ↓
 Discovery
+  ↔
+Prototype
   ↔
 Validation
   ↔
@@ -273,7 +168,7 @@ open-d3-framework/
 ├── README.md
 ├── docs/
 ├── skills/
-├── templates/
+│   └── open-d3-framework.skill
 ├── examples/
 └── assets/
 ```
@@ -283,14 +178,12 @@ open-d3-framework/
 # Getting Started
 
 1. Install Claude Code
-2. Add the Open D3 skills
+2. Add the Open D3 framework skill
 3. Start with Discovery
 4. Validate ideas early
 5. Refine into Specs
 6. Execute with Claude Code
 7. Verify, refine, and iterate
-
-More detailed setup instructions are available in `/docs`.
 
 ---
 
@@ -310,21 +203,9 @@ The faster we can move between those two points, the faster we can:
 - pressure test ideas
 - and improve outcomes
 
-This is not unique to software development.
-
-The same pattern exists across:
-- product development
-- operations
-- strategy
-- research
-- content
-- and decision-making
-
 The ability to pressure test ideas quickly is often what separates interesting ideas from useful outcomes.
 
 AI dramatically increases the speed of execution.
-
-In many cases, it makes building faster, easier, and more accessible than ever before.
 
 That’s powerful.
 
@@ -336,11 +217,7 @@ Discovery, validation, prototyping, verification, and feedback loops are not ove
 
 They are mechanisms for reducing execution risk before small mistakes become expensive outcomes.
 
-Open D3 is built around the idea that better discovery, validation, and feedback loops reduce delivery risk before implementation compounds mistakes.
-
 The framework aims to move teams closer to “Delivery Zero”:
-
-A state where:
 - assumptions are pressure tested early
 - context stays aligned through execution
 - workflows continuously evolve through feedback
@@ -349,15 +226,6 @@ A state where:
 Delivery Zero is not about eliminating iteration.
 
 It is about reducing avoidable execution drift before it becomes expensive.
-
-The framework encourages:
-- validating fast and early
-- evolving specs through feedback
-- iterative refinement
-- shared context
-- and lightweight workflow structure
-
-so teams can move quickly without losing direction.
 
 AI makes execution faster.
 
